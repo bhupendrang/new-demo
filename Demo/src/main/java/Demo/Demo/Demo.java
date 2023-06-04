@@ -11,7 +11,6 @@ public class Demo {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.guru99.com/");
 		driver.manage().window().maximize();
-		driver.manage().deleteAllCookies();
 
 	}
 
